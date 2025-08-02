@@ -56,13 +56,18 @@
       "dist/index.html",
       "package.json"
     ],
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
     "mac": {
       "category": "public.app-category.productivity",
       "icon": "assets/icon.icns"
     },
     "win": {
       "target": "nsis",
-      "icon": "assets/icon.ico"
+      "icon": "assets/icon.ico",
+      "sign": null
     },
     "linux": {
       "target": "AppImage",
