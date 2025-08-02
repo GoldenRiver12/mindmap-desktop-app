@@ -51,7 +51,9 @@
       "output": "release"
     },
     "files": [
-      "dist/**/*",
+      "dist/main/**/*",
+      "dist/bundle.js",
+      "dist/index.html",
       "package.json"
     ],
     "mac": {
